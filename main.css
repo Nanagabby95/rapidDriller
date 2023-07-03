@@ -1,0 +1,459 @@
+body{
+  background-color: #011B33 !important;
+  font-family: 'Montserrat', sans-serif;
+  color: white !important;
+  background-image: radial-gradient(250px circle at 73% 7%, #04384e, transparent);
+  background-repeat: no-repeat;
+}
+
+p{
+  font-family: 'Montserrat';
+  font-size: 24px;
+}
+
+.btn-primary{
+  background-color: #3A95C9 !important;
+  padding: 5px 25px !important;
+  border-radius: 10px !important;
+}
+.gradient{ 
+  background: linear-gradient(90.09deg, #1393EC 27.46%, #0CE37B 100.07%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 34px;
+}
+.heading{ 
+  background: linear-gradient(90.09deg, #1393EC 27.46%, #0CE37B 100.07%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -text-fill-color: transparent;
+  font-size: 40px;
+  font-weight: bold;
+}
+.heading-problem{ 
+  background: linear-gradient(90.09deg, #1393EC 27.46%, #FFFFFF 100.07%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -text-fill-color: transparent;
+  font-size: 32px;
+  font-weight: bold;
+}
+.features-heading{ 
+  background: linear-gradient(90.09deg, #1393EC 27.46%, #0CE37B 100.07%);
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -text-fill-color: transparent;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+
+.compiler-btn{
+  background: #3A95C9 !important;
+  padding: 10px 40px !important;
+}
+.btn-outline-light{
+  padding: 10px 60px !important;
+}
+
+.h3-gradient{
+background: linear-gradient(04.09deg, #0CE37B 48.07%, #1393EC 25.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+-text-fill-color: transparent
+}
+
+.hr{
+  margin: auto !important;
+  width: 200px;
+  background: #1393ECAD;
+  border: 1px solid #1393ECAD;
+}
+
+
+.navbar{
+  height: 100px !important;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+
+  }
+  .nav-wrapper{
+    width: 100% !important;
+    background: #0014274a !important;
+    padding: 20px 50px !important;
+  }
+
+  .navmenu li{
+      justify-content: left !important; 
+  }
+ 
+    .logo-wrapper,
+    .hamburger {
+      display: flex;
+      align-items: center;
+      padding-left: 30px !important;
+    }
+  .navmenu{
+      display: flex;
+      justify-content:left !important;
+      gap: 3em;
+      padding-right:20px !important;
+      padding-top: 10px !important;
+  }
+  li{
+  transition: 0.7s ease !important;
+  }
+  .navlink:hover{
+  color: dodgerblue !important;
+  }
+  .hamburger{
+  display: none;
+  cursor: pointer;
+  }
+  .bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3 ease-in-out;
+  background-color: white;
+  }
+
+    .modal-body { 
+      background-color: #011B33!important;
+      border: none !important;
+    }
+
+  
+    .boxes{
+      background: linear-gradient(154.84deg, rgba(255, 255, 255, 0.05) 5.49%, rgba(255, 255, 255, 0.0055) 100%);
+      border-radius: 11px;
+      
+      height: 500px !important;
+      border: 1px solid #FFFFFF;
+    }
+
+    .rep-btn{
+      padding: 15px 50px !important;
+    }
+    .trans-btn{
+      padding: 15px 60px !important;
+      background-color: transparent;
+      border: 2px solid white !important;
+      border-radius: 10px !important;
+    }
+
+  .footer-tools{
+    display: flex;
+  }
+  .copyright-section .logo{
+    width: 20px;
+    height: 20px;
+  }
+ 
+      .carousel-indicators {
+        list-style-type: none;
+      
+      }
+      .carousel-indicators li {
+        width: 5px !important;
+        height: 12px;
+        border-radius: 50%;
+        border: none;
+        background-color: #3A95C9 !important;
+        margin: 0 5px;
+      }
+      
+      .carousel-indicators button.active {
+        background-color: #3A95C9 !important;
+      }
+      .carous-wrapper{
+        background: linear-gradient(154.84deg, rgba(255, 255, 255, 0.05) 5.49%, rgba(255, 255, 255, 0.0055) 100%);
+        border-radius: 11px;
+        border: 1px solid #FFFFFF;
+        background-image: url(/images/testimolay.png);
+        background-repeat: no-repeat !important;
+        background-size: 15%;
+        background-position: calc(5% - 10px) calc(20% + 20px);
+      }
+
+      .carousel-control-prev,
+      .carousel-control-next {
+        width: 40px !important;
+        height: 40px !important;
+        background-color: #1393EC !important;
+        border-radius: 50%;
+        left: calc(50% - 20.5px) !important;
+        top: auto !important;
+        bottom: 20px !important;
+        opacity: 0.8;
+        
+      }
+
+      .carousel-control-next {
+        left: calc(50% + 30.5px) !important;
+      }
+     
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        width: 100px !important;
+      }
+      .benefits-container{
+        background-image: url(/images/benefitlay.png);
+        background-repeat: no-repeat;
+        background-size: 25%;
+        background-position: center;
+      }
+      .benefits-container .text-wrapper {
+        background-image: radial-gradient(200px circle at 50% 50%, #053361, transparent 80%);
+        background-repeat: no-repeat; 
+        background-position: center;
+      }
+     .benefits-btn{
+      padding: 15px 50px !important;
+     }
+     
+    .schedule-section-img {
+      position: relative;
+      text-align: center; /* Center the contents horizontally */
+    }
+    
+    .image-caption {
+      position: absolute;
+      bottom: 50%; /* Adjust the vertical position as needed */
+      left: 50%; /* Center the div horizontally */
+      transform: translate(-50%, 50%); /* Adjust the vertical position after centering */
+      width: 100%; /* Make the div span the full width of the container */
+    }
+    
+    .image-caption h4 {
+      font-size: 32px;
+      margin: 0;
+    }
+    
+    .image-caption span {
+      margin-top: 20px; 
+    }
+    
+  
+    
+    .footer-tools{
+      display: flex;
+    }
+    .copyright-section .logo{
+      width: 20px;
+      height: 20px;
+    }
+    .schedule-section button{
+      padding:15px 40px
+    }
+    .offering-section{
+      /* background-image: radial-gradient(200px circle at 50% 50%, #548ec9, transparent) !important; */
+      background-image: radial-gradient(150px  at 18% 60%, #023146, transparent) !important;
+      background-repeat: no-repeat;
+    }
+
+  @media(max-width:789px){
+      .hamburger{
+          display: block;
+          text-align: right;
+          align-items: right;
+          margin-right:20px !important;
+      }
+     
+      .hidden-li{
+          display: block;
+      }
+
+      .navmenu{
+          position: fixed;
+          left: -100%;
+          top: 70px;
+          gap: 3em;
+          flex-direction: column;
+          background-color: #011C34;
+          width: 80%;
+          text-align: left;
+          height: 100vh !important;
+          align-items: left !important;
+      }
+     
+      .navitem{
+          margin: 16px 0;
+          text-align: left !important;
+          padding-left: 10px !important;
+      }
+      .navmenu.active{
+          left: 0;
+      }
+      .navbar{
+          justify-content: space-around;
+          align-items: center;
+      }
+      .mobile-none{
+        display: none;
+      }
+      .benefits-container h2{
+        font-size: 28px !important;
+      }
+  }
+  @media(max-width:789px){
+      .hamburger{
+          display: block;
+          text-align: right;
+          align-items: right;
+          margin-right:20px !important;
+      }
+      .hidden-li{
+          display: block;
+      }
+      .nav-wrapper{
+        padding: 30px !important;
+      }
+
+      .navmenu{
+          left: -100%;
+          top: 70px;
+          gap: 3em;
+          flex-direction: column;
+          background-color: #011C34;
+          width: 80%;
+          text-align: left;
+          height: 100vh !important;
+          align-items: left !important;
+      }
+      .navmenu .second-ul{
+        display: block;
+        padding-right: 0 !important;
+        }
+      .navitem{
+          margin: 16px 0;
+          text-align: left !important;
+          padding-left: 10px !important;
+      }
+      .navmenu.active{
+          left: 0;
+      }
+      .navbar{
+          justify-content: space-around;
+          align-items: center;
+      }
+
+      .products-overlay{
+          margin-left: 220px !important;
+      }
+      .trans-btn{
+        margin-top: 12px !important;
+      }
+      .footer-section{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap !important;
+      }
+      
+      .footer-section li{
+        font-size: 11px !important;
+      }
+      .footer-section label{
+        font-size: 14px !important;
+      }
+      .copyright-section p{
+        font-size: 7px !important;
+      }
+      .social-section img{
+        width: 15px !important;
+      }
+      .btn-outline-light{
+        margin-top: 10px !important;
+      }
+      .hero-section{
+        text-align: center !important; 
+      }
+      .text-white{
+        margin:0!important;
+      }
+      .offering-section{
+        margin: 0 !important;
+    
+      }
+  }
+ @media (max-width:600px) {
+    
+  .image-caption {
+    position: relative;
+    width: 100%;
+  }
+    .image-caption h4{
+      font-size: 20px !important;
+    } 
+    .rep-btn{
+      padding: 14px 30px !important;
+      margin-bottom: 4em !important;
+    }
+  } 
+
+  @media (min-width:820px) {
+   .home{
+    padding-right:40 !important ;
+   }
+   .product{
+    padding-right: 50px !important;
+   }
+   .pricing{
+    padding-right: 200px !important;
+   }
+  }
+  @media (min-width:1024px) {
+   .home{
+    padding-right: 10px !important ;
+   }
+   .product{
+    padding-right: 30px !important;
+   }
+   .pricing{
+    padding-right: 120px !important;
+   }
+
+  
+  }
+  @media (width<=912px) {
+    .home{
+      padding-right: 30px !important ;
+     }
+     .product{
+      padding-right: 40px !important;
+     }
+     .pricing{
+      padding-right: 40px !important;
+     }
+  }
+  @media (width<=820px) {
+    .home{
+      padding-right:0!important ;
+     }
+     .product{
+      padding-right: 0 !important;
+     }
+     .pricing{
+      padding-right: 0 !important;
+     }
+     .navbar button{
+      margin-right: 25px !important;
+      padding: 8px 10px !important;
+     }
+     .logo-wrapper{
+      padding: 0 !important;
+      margin: 0 !important;
+     }
+  }
+  
